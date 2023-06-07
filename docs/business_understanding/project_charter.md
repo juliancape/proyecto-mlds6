@@ -2,57 +2,67 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Prediccion de Diabetes
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Desarrollar un modelo de aprendizaje automático que pueda predecir la presencia o ausencia de diabetes en pacientes basándose en su historial médico y características demográficas
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
-- [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
-- [Criterios de éxito del proyecto]
+- Descripción de los datos disponibles: El conjunto de datos incluye información sobre el género, edad, hipertensión, enfermedad cardíaca, historial de tabaquismo, índice de masa corporal (IMC), nivel de HbA1c, nivel de glucosa en sangre y la presencia o ausencia de diabetes.
+- Descripción de los resultados esperados: Se espera obtener un modelo de aprendizaje automático capaz de predecir con precisión la presencia o ausencia de diabetes en pacientes en función de su historial médico y características demográficas.
+- Criterios de éxito del proyecto: Los criterios de éxito incluyen un modelo con una alta precisión de predicción de diabetes, una evaluación exhaustiva del rendimiento del modelo utilizando métricas apropiadas y una validación externa del modelo si es posible.
 
 ### Excluye:
 
-- [Descripción de lo que no está incluido en el proyecto]
+- El proyecto no incluye el análisis de tratamientos específicos para la diabetes ni la implementación de medidas de prevención o intervenciones médicas. 
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+Entendimiento del negocio, en esta etapa se plantea el objetivo del negocio y del proyecto de machine learning
+Entendicmiento del los datos, en esta etapa se realizar el análisis exploratorio de los datos, haciendo una ingenieria de caracteristicas y preperando los datos para el modelado
+Contrucción de diferentes modelos de meachine learning con los datos preparados
+Evaluación de diferentes modelos de machine learning con metricas de desempeño teniendo en cuenta el objetivo del modelado, para este caso, metricas como accuracy, f1_score, precisión, etc, ya que es un modelo de clasificación
+desplegado del modelo en producción
 
 ## Cronograma
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+| Entendimiento del negocio y carga de datos | 1 semana | del 29 de mayo al 2 de junio |
+| Preprocesamiento, análisis exploratorio | 1 semana | del 5 de junio al 9 de junio |
+| Modelamiento y extracción de características | 1 semana | del 13 de junio al 20 de julio |
+| Despliegue | 1 semana | del 21 de junio al 26 de junio |
+| Evaluación y entrega final | 1 semana | del 27 de junio al 1 de agosto |
 
-Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Julian Cardenas - Cientifico de datos
 
 ## Presupuesto
 
-[Descripción del presupuesto asignado al proyecto]
+|Item|Actividad|costo en pesos|
+|:---:|:---|:---|
+|1|Tecnicos del negocio|3.000.000|
+|2|Tecnicos de datos y software|5.000.000|
+|3|Software y hardware|10.000.000|
+|4|Otros |7.000.000|
 
 ## Stakeholders
 
-- [Nombre y cargo de los stakeholders del proyecto]
-- [Descripción de la relación con los stakeholders]
-- [Expectativas de los stakeholders]
+|Nombre|Cargo|Relación|Expectativa|
+|:---:|:---|:---|:---|
+|XXX|Investigador médico|Uso del conjunto de datos|Identificar relaciones entre factores médicos y la diabetes| 
+|XXX|Gerente de hospital|Patrocinio y apoyo institucional|Mejorar la calidad del cuidado y la gestión de pacientes con diabetes|
 
 ## Aprobaciones
 
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
+**Proyecto aprobado por el gerente del hospital** 
+- Firma XXX
+
+**Fecha de aprobación** 
+- 6 junio de 2023
