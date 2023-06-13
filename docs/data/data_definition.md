@@ -2,24 +2,17 @@
 
 ## Origen de los datos
 
-- [ ] Especificar la fuente de los datos y la forma en que se obtuvieron. 
+- El dataset de predicción de diabetes utilizado en este proyecto se originó en el siguiente enlace: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset. Este conjunto de datos se encuentra disponible en Kaggle, una plataforma popular para compartir y descubrir conjuntos de datos. Contiene información médica y demográfica recopilada de pacientes, junto con su estado de diabetes (positivo o negativo).
 
 ## Especificación de los scripts para la carga de datos
 
-- [ ] Especificar los scripts utilizados para la carga de los datos. 
+- El analisis exploratorio de los datos se encuentra en scripts/eda/eda.ipynb
+- El preprocesamiento de los datos se encuentra en scripts/preprocessing/preprocessing.ipynb
 
 ## Referencias a rutas o bases de datos origen y destino
 
-- [ ] Especificar las rutas o bases de datos de origen y destino para los datos.
+- csv: /work/diabetes_prediction_dataset.csv
 
 ### Rutas de origen de datos
 
-- [ ] Especificar la ubicación de los archivos de origen de los datos.
-- [ ] Especificar la estructura de los archivos de origen de los datos.
-- [ ] Describir los procedimientos de transformación y limpieza de los datos.
-
-### Base de datos de destino
-
-- [ ] Especificar la base de datos de destino para los datos.
-- [ ] Especificar la estructura de la base de datos de destino.
-- [ ] Describir los procedimientos de carga y transformación de los datos en la base de datos de destino.
+- csv: Cuenta con ul total de 100001 datos
