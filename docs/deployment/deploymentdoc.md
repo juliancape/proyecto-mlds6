@@ -2,9 +2,10 @@
 
 ## Infraestructura
 
-- **Nombre del modelo:** (nombre que se le ha dado al modelo)
-- **Plataforma de despliegue:** (plataforma donde se va a desplegar el modelo)
-- **Requisitos técnicos:** (lista de requisitos técnicos necesarios para el despliegue, como versión de Python, bibliotecas de terceros, hardware, etc.)
+- **Nombre del modelo:** XGBOOST para la prediccion de diabetes
+- **Plataforma de despliegue:** Railway
+- **Requisitos técnicos:** fastapi==0.98.0, joblib==1.2.0, scikit-learn==1.2.2, uvicorn==0.22.0, xgboost==1.7.6
+
 - **Requisitos de seguridad:** (lista de requisitos de seguridad necesarios para el despliegue, como autenticación, encriptación de datos, etc.)
 - **Diagrama de arquitectura:** (imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo)
 
